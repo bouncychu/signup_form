@@ -1,3 +1,23 @@
-//these are some CSS styles//
+.main-container {
+display:flex;
+flex-direction:row;
+border-color: black;
+}
 
+.left-column {
 
+background-image: url("images.jpeg");
+border-color: black;
+color: white;
+width: 40%;
+height: 100vh;
+}
+
+.right-column {
+display: flex;
+width: 60%;
+flex-direction: column;
+align-items: start;
+border-color: black;
+border-style: solid;
+}
