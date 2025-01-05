@@ -18,6 +18,7 @@ width: 40%;
 height: 100vh;
 display: flex;
 align-items: center;
+justify-content: center;
 }
 
 .right-column {
@@ -56,6 +57,7 @@ min-width: 480px;
     background-color: rgba(128, 128, 128, 0.4);
     padding: 1em 6em 1em 1em;
     overflow: hidden;
+    flex: 1;
 }
 
 .logo-container {
